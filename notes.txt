@@ -1,0 +1,3 @@
+Clone the Repo
+run "npm install" command. This will install all the project dependencies and node_modules folder is created
+run "npm start" command. This will open the aapp in browser and default URl is http://localhost:3000.

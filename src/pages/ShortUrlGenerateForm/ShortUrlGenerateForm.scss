@@ -1,0 +1,39 @@
+.shorturl-form-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    width: 600px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+
+    .long-ur-textbox {
+      margin: 20px 6px;
+      text-align: left;
+
+      > input {
+        display: block;
+        margin-top: 6px;
+      }
+    }
+
+    button {
+      display: block;
+      margin-left: auto;
+      margin-right: 6px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      padding: 8px 30px;
+      color: #fff;
+      background-color: #28c98b;
+      border-color: #28c98b;
+    }
+
+    .short-url-wrapper {
+      text-align: left;
+    }
+  }
+}
